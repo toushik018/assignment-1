@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 
@@ -54,14 +55,117 @@
     padding: 20px 26px;
     font-weight: 600;
     margin-bottom: 187px;
+    margin-top: 32px;
+
 
 }
-.btn a{
+
+.btn a {
     text-decoration: none;
-color: #ffff;
+    color: #ffff;
+    font-size: 20px;
+
 }
 
-.banner-container{
-    margin-bottom: 187px ;
+.banner-container {
+    margin-bottom: 187px;
 }
 
+
+
+/* failures Section starts */
+
+.failures-container {
+    display: flex;
+    align-items: center;
+    width: 1072px;
+    height: 723.3px;
+    gap: 30px;
+
+}
+
+.image {
+    width: 569px;
+    height: 723.3px;
+    margin-top: 130px;
+    margin-right: 87px;
+    margin-left: 206px;
+
+}
+
+.failure-content {
+    margin-right: 322px;
+    margin-top: 369px;
+    margin-left: 87px;
+
+
+}
+
+.failure-title {
+    width: 288px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.failure-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    width: 416px;
+    height: 70px;
+
+}
+
+.list {
+    width: 349px;
+    height: 100px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.list p {
+    margin-bottom: 8px;
+}
+
+.list i {
+    margin-right: 10px;
+}
+
+
+/* My plans Starts */
+
+.my-plans {
+    margin-top: 130px;
+}
+
+.plans-container {
+    display: flex;
+    gap: 30px;
+    margin-left: 320px;
+    margin-right: 200px;
+    
+}
+
+.my-plans-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 24px;
+}
+
+.plans-description {
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 16px;
+}
+.plans{
+    text-align: center;
+}
