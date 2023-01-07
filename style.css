@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -24,38 +24,43 @@
 .banner-title {
     padding-top: 100px;
     padding-left: 230px;
-    padding-right: 845px;
-    /* margin-bottom: 365px; */
+    padding-left: 845px;
+    margin-bottom: 24px;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
-    text-align: left;
+    text-align: right;
     color: #151414;
+    width: 525px;
+    height: 228px;
 }
 
 .banner-description {
     padding-left: 230px;
-    padding-right: 875px;
+    padding-left: 875px;
     font-family: 'Work Sans';
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #151414;
-    text-align: left;
+    text-align: right;
+    width: 494px;
+    height: 78px;
 }
 
 .btn {
-    margin-left: 230px;
-    margin-right: 230px;
-    text-align: right;
+    text-align: center;
     background: #F15B22;
     border-radius: 5px;
     padding: 20px 26px;
     font-weight: 600;
     margin-bottom: 187px;
     margin-top: 32px;
+    width: 160px;
+    height: 64px;
+    margin-left: 1210px;
 
 
 }
@@ -137,7 +142,7 @@
 /* My plans Starts */
 
 .my-plans {
-    margin-top: 130px;
+    margin-top: 150px;
 }
 
 .plans-container {
@@ -145,7 +150,7 @@
     gap: 30px;
     margin-left: 320px;
     margin-right: 200px;
-    
+
 }
 
 .my-plans-title {
@@ -166,6 +171,52 @@
     font-size: 25px;
     margin-top: 16px;
 }
-.plans{
+
+.plans {
     text-align: center;
+}
+
+/* Always keep a positive mindset starts */
+
+
+
+.positive-img {
+    background-image: linear-gradient(to right,#F15B22 0%, rgba(241, 91, 34, 0) 100%) , url('./images/watch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    margin: 130px 230px;
+    border-radius: 5px;
+
+}
+
+.positive-banner {
+    width: 459px;
+    height: 182px;
+    margin-left: 64px;
+    margin-right: 617px;
+    padding-top: 59px;
+    margin-bottom: 59px;
+}
+
+.positive-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.positive-btn {
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.positive-btn a {
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: #F15B22;
 }
